@@ -1,4 +1,9 @@
 package org.app;
 
-public class Mensonge1 {
+public final class Mensonge1 extends Affirmations{
+
+    @Override
+    public boolean evaluateur() {
+        return false;
+    }
 }

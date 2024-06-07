@@ -1,6 +1,6 @@
-package org.app;
+package org.app.Affirmations;
 
-public final class Mensonge1 extends Affirmations{
+public final class Mensonge1 extends Affirmations {
 
 
     @Override

@@ -1,8 +1,8 @@
-package org.app;
+package org.app.Affirmations;
 
 import java.util.Random;
 
-public final class AffirmationAleatoire extends Affirmations {
+public final   class AffirmationAleatoire extends Affirmations {
 
     Random rand = new Random();
 

@@ -1,4 +1,8 @@
-import org.app.*;
+import org.app.Affirmations.AffirmationAleatoire;
+import org.app.Affirmations.Affirmations;
+import org.app.Affirmations.Mensonge1;
+import org.app.Affirmations.Verite1;
+import org.app.Service.Logique;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

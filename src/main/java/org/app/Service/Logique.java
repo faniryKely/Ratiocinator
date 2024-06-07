@@ -1,4 +1,6 @@
-package org.app;
+package org.app.Service;
+
+import org.app.Affirmations.Affirmations;
 
 public class Logique {
 
@@ -10,7 +12,6 @@ public class Logique {
     public boolean ou(Affirmations proposition1, Affirmations proposition2) {
         return proposition1.evaluateur() || proposition2.evaluateur();
     }
-
 
     public boolean donc(Affirmations proposition1, Affirmations proposition2) {
         return !proposition1.evaluateur() || proposition2.evaluateur();
